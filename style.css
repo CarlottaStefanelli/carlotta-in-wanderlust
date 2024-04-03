@@ -101,7 +101,6 @@ header {
     top: -10px;
     left: -15px;
     width: auto;
-    opacity: 80%;
     background-color: #D9D9D9;
     display: none;
     padding: 10px 15px;
@@ -229,7 +228,6 @@ display: flex;
 }
 
 .desktop-nav .search-bar {
-    display: none; /* remove this with JS so that it only appears when clicking the btn*/
     position: absolute;
     left: -255px;
 }
@@ -530,4 +528,8 @@ footer {
 
 .display-block {
     display: block;
+}
+
+.hidden {
+    display: none;
 }
